@@ -158,6 +158,7 @@ function abortJob()
 	routeBlip			= nil
 	currentDestination  = nil
 	currentRoute        = nil
+	jobStatus = CONST_NOTWORKING --Allows the user to work again
 	lastDropCoordinates = nil
 	totalRouteDistance  = nil
 
